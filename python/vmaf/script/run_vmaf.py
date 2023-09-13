@@ -8,6 +8,8 @@ import os
 
 import numpy as np
 
+sys.path.append("/home/ohzahata-qoe/Documents/GitHub/vmaf/python/")
+
 from vmaf.config import VmafConfig, DisplayConfig
 from vmaf.core.asset import Asset
 from vmaf.core.quality_runner import VmafQualityRunner
